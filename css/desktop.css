@@ -5,4 +5,9 @@
   gap: 40px;
 }
 
-
+.hamburger {
+  display: none;
+}
+.mob-menu {
+  display: none;
+}
