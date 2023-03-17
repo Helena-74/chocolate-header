@@ -46,9 +46,9 @@ body {
   color: var(--main-title-color);
 }
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #31d0aa;
-}
+} */
 .header-container {
   max-width: 375px;
   padding-left: 32px;
