@@ -9,9 +9,9 @@
       @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
     </style>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+    rel="stylesheet"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -22,8 +22,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="./css/styles.css" />  -->
-    <link
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link
       rel="stylesheet"
       href="./css/mobile.css"
       media="screen and (max-width:767px)"
@@ -37,71 +37,97 @@
       rel="stylesheet"
       href="./css/desktop.css"
       media="screen and (min-width:1158px)"
-    />
+    /> -->
   </head>
   <!--main page-->
   <body>
     <header class="page-header">
-      <div class="header-container">
+      <div class="container">
         <nav class="header-nav">
+          <a href="./index.html" class="header-logo"
+                ><span class="span-header">SIMPLY</span>CHOCOLATE <img class="logo-head-icon" src="./img/Logo1.svg" alt="Logo" width="21" height="21"></a
+            >
           <!-- <a href="./index.html" class="header-logo"
-            ><span class="span-header">SIMPLY</span>CHOCOLATE <img src="./images/Logo1.svg" alt=""></a
-          > -->
-          <a href="./index.html" class="header-logo"><img src="./images/logo.svg" alt=""></a>
+            ><img src="/img/header/logo.svg" alt="logo" width="" height=""
+          /></a> -->
           <ul class="site-nav-header header-list">
             <li class="header-item">
-              <a href="" class="header-nav-link link-current">Home</a>
+              <a href="./index.html" class="header-nav-link link-current">Home</a>
             </li>
             <li class="header-item">
-              <a href="./How it’s made?" class="header-nav-link">How it’s made?</a>
+              <a href="./index.html/how-its-made.html" class="header-nav-link"
+                >How it’s made?</a
+              >
             </li>
-            <li class="header-item"><a href="Our products" class="header-nav-link">Our products</a></li>
-            <li class="header-item"><a href="Top sellers" class="header-nav-link">Top sellers</a></li>
-            <li class="header-item"><a href="Chocolate is loved" class="header-nav-link">Chocolate is loved</a></li>
+            <li class="header-item">
+              <a href="./index.html/our-products.html" class="header-nav-link">Our products</a>
+            </li>
+            <li class="header-item">
+              <a href="./index.html/top-sellers.html" class="header-nav-link">Top sellers</a>
+            </li>
+            <li class="header-item">
+              <a href="./index.html/reviews.html" class="header-nav-link"
+                >Chocolate is loved</a
+              >
+            </li>
           </ul>
         </nav>
-
         <div class="header-cont-pre">
           <ul class="header-soc-list header-list">
             <li class="header-soc-title">
               <a href="" class="header-soc-link header-link">
                 <svg class="icon-social-header" width="24" height="24">
-                  <use href="./images/icons.svg#instagram"></use>
+                  <use href="/img/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="header-soc-title">
               <a href="" class="header-soc-link header-link"
                 ><svg class="icon-social-header" width="24" height="24">
-                  <use href="./images/icons.svg#twitter"></use></svg
-              ></a>
+                  <use href="./img/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        <button type="button" class="header-burger" data-menu-open>
-          <svg width="32" height="22">
-            <use href="./images/icons.svg#hamburger"></use>
+        <button type="button" class="header-burger js-open-modal" data-menu-open>
+          <svg width="" height="">
+            <use href="./img/icons.svg#hamburger"></use>
           </svg>
         </button>
       </div>
       <div class="header-menu is-hidden" data-menu>
         <div class="container-mob-header">
           <div>
-            <button type="button" class="header-mob-close" data-menu-close>
+            <button type="button" class="header-mob-close js-modal-close" data-menu-close>
               <svg width="14" height="14">
-                <use href="./images/icons.svg#close"></use>
+                <use href="./img/icons.svg#close"></use>
               </svg>
             </button>
-            <ul class="header=mob-nav header-mob-list">
+            <ul class="header-mob-nav header-mob-list">
               <li class="header-mob-item">
-                <a href="" class="header-mob-link link-current">Home</a>
+                <a href="./index.html" class="header-mob-link link-current"
+                  >Home</a
+                >
               </li>
               <li class="header-mob-item">
-                <a href="./How it’s made?" class="header-mob-link">How it’s made?</a>
+                <a href="./index.html/how-its-made.html" class="header-mob-link"
+                  >How it’s made?</a
+                >
               </li>
-              <li class="header-mob-item"><a href="Our products" class="header-mob-link">Our products</a></li>
-              <li class="header-mob-item"><a href="Top sellers" class="header-mob-link">Top sellers</a></li>
-              <li class="header-mob-item"><a href="Chocolate is loved" class="header-mob-link">Chocolate is loved</a></li>
+              <li class="header-mob-item">
+                <a href="./index.html/our-products.html" class="header-mob-link"
+                  >Our products</a
+                >
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/top-sellers.html" class="header-mob-link">Top sellers</a>
+              </li>
+              <li class="header-mob-item">
+                <a href="./index.html/reviews.html" class="header-mob-link"
+                  >Chocolate is loved</a
+                >
+              </li>
             </ul>
           </div>
           <div class="header-cont">
@@ -109,31 +135,22 @@
               <li class="header-soc-title">
                 <a href="" class="header-soc-link header-link">
                   <svg class="icon-social-header" width="24" height="24">
-                    <use href="./images/icons.svg#instagram"></use>
+                    <use href="./img/icons.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="header-soc-title">
                 <a href="" class="header-soc-link header-link"
                   ><svg class="icon-social-header" width="24" height="24">
-                    <use href="./images/icons.svg#twitter"></use></svg
-                ></a>
+                    <use href="./img/icons.svg#twitter"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </header>
-    <main>
-              <!-- <img
-                srcset="
-                  ./images/team/team_mb@1x.jpg x1,
-                  ./images/team/team_mb@2x.jpg x2,
-                "
-                src="./images/team/team_mb@1x.jpg"
-                alt="photo Mark Guerrero"
-              /> -->
-    </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
